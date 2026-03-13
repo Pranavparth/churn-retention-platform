@@ -1,13 +1,13 @@
 # 🔮 Interactive Customer Churn & Retention Platform
 
-A portfolio-grade Data Science application simulating a Telco company's customer retention dashboard. It's built with **Python/FastAPI** (Machine Learning/Backend) and **Next.js** (Frontend UI) featuring an ultra-custom, glassmorphic dark-mode interface built on pure Vanilla CSS.
+A Data Science application simulating a Telco company's customer retention dashboard. It's built with **Python/FastAPI** (Machine Learning/Backend) and **Next.js** (Frontend UI) featuring an ultra-custom, glassmorphic dark-mode interface built on pure Vanilla CSS.
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.4+-orange)
 ![SHAP](https://img.shields.io/badge/Explainable_AI-SHAP-success)
 
-## 🌟 The "Wow" Factor: What-If Simulator & Explainable AI
+## 🌟 What-If Simulator & Explainable AI
 Unlike static machine learning notebooks, this project offers an interactive **What-If Simulator**.
 - **Explainability**: Using `shap.TreeExplainer`, each user's profile is broken down to highlight exactly *why* they are a churn risk (e.g. "High Monthly Charges", "Month-to-month contract").
 - **Live Interventions**: The user interface allows you directly manipulate a customer's `Monthly Charges`, `Support Calls`, or `Contract Type`. Changes stream to the FastAPI backend and instantly recalculate the predicted churn probability—demonstrating how business interventions can save high-risk accounts.
@@ -29,9 +29,7 @@ Unlike static machine learning notebooks, this project offers an interactive **W
 ---
 
 ## 🚀 How to Run Locally
-
-You will need two terminal windows open to run the backend and frontend simultaneously. 
-
+ 
 ### 1. Start the Machine Learning API (Backend)
 Navigate to the backend directory and set up the Python environment:
 ```bash
@@ -63,4 +61,4 @@ Start the Next.js development server:
 ```bash
 npm run dev
 ```
-*The dashboard is now live! Open **http://localhost:3000** in your web browser to explore.*
+*The dashboard is live! Open **http://localhost:3000** in your web browser to explore.*
